@@ -1,0 +1,16 @@
+
+	
+def callback1(t):
+	global b,counter1,ledshowon #,puffer,msg #sprachliste
+	#s=""
+	if(ledshowon):
+		counter1=counter1+1
+		if(counter1==4):
+			pyb.LED(1).toggle()
+		if(counter1>=8):
+			pyb.LED(2).toggle()
+			counter1=0
+			
+		pyb.LED(3).toggle()
+		
+tim4 = pyb.Timer(2, freq=2, callback=callback1)

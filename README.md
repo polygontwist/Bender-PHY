@@ -1,9 +1,14 @@
 # Bender-PHY
-Spracherzeugung und Servoansteuerung meiner Bender-Figur (https://www.thingiverse.com/thing:6200580).
+Speech generation and servo control of my Bender figure (https://www.thingiverse.com/thing:6200580).
 
-Audiosampelerzeugung: https://github.com/polygontwist/audioconvert
+The speech output is realised with the help of phonemes. Words entered are broken down into phonemes and matching audio segments are combined and played back. The mouth is moved to match. For example, the mouth opens for an "a" and closes for an "m".
+In addition, there are some audio snippets such as laughing or "hmmmm" sounds.
 
-Webserver: https://github.com/polygontwist/BenderLAN/tree/main
+Audio sample generation: [github:audioconvert](https://github.com/polygontwist/audioconvert)
+* [micropython:amp_skin](http://docs.micropython.org/en/v1.8.2/pyboard/pyboard/tutorial/amp_skin.html)
+  
+Web server with ESP8266: [github:BenderLAN](https://github.com/polygontwist/BenderLAN/tree/main)
 
-![Übersicht](https://github.com/polygontwist/Bender-PHY/blob/main/uebersicht.jpg)
-(Grafikelemente: Fritzing)
+![Overview](https://github.com/polygontwist/Bender-PHY/blob/main/uebersicht.jpg)
+(Graphic elements: Fritzing)
+

@@ -12,5 +12,5 @@ Web server with ESP8266: [github:BenderLAN](https://github.com/polygontwist/Bend
 ![Overview](https://github.com/polygontwist/Bender-PHY/blob/main/uebersicht.jpg)
 (Graphic elements: Fritzing)
 
-![Animation](https://raw.githubusercontent.com/polygontwist/Bender-PHY/main/futurama_bender_head.mp4)
+[Animation: a-d-k.de/futurama_bender_head.mp4](https://www.a-d-k.de/data/dat20230904_211014/futurama_bender_head.mp4)
 
